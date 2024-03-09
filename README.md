@@ -10,14 +10,14 @@ Generate a client and server for each ODA Open API.
 
 ## TMF634
 ```bash
-openapi-generator-cli generate --generator-name python --output tmf634/client --additional-properties packageName=oda_sdk_tmf634 -i https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/4.1.0/swagger/TMF634-ResourceCatalog-v4.1.0.swagger.json
-openapi-generator-cli generate --generator-name python-flask --output tmf634/server --additional-properties packageName=oda_sdk_tmf634 -i https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/4.1.0/swagger/TMF634-ResourceCatalog-v4.1.0.swagger.json
+openapi-generator-cli generate --generator-name python --output tmf634/client --additional-properties packageName=oda_sdk_tmf634 -i https://raw.githubusercontent.com/tmforum-apis/TMF634_ResourceCatalog/master/TMF634-ResourceCatalog-v4.1.0.swagger.json
+openapi-generator-cli generate --generator-name python-flask --output tmf634/server --additional-properties packageName=oda_sdk_tmf634 -i https://raw.githubusercontent.com/tmforum-apis/TMF634_ResourceCatalog/master/TMF634-ResourceCatalog-v4.1.0.swagger.json
 ```
 
 ## TMF639
 ```bash
-openapi-generator-cli generate --generator-name python --output tmf639/client --additional-properties packageName=oda_sdk_tmf639 -i -i https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/4.0.0/swagger/TMF639-ResourceInventory-v4.0.0.swagger.json
-openapi-generator-cli generate --generator-name python-flask --output tmf639/server --additional-properties packageName=oda_sdk_tmf639 -i -i https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/4.0.0/swagger/TMF639-ResourceInventory-v4.0.0.swagger.json
+openapi-generator-cli generate --generator-name python --output tmf639/client --additional-properties packageName=oda_sdk_tmf639 -i https://raw.githubusercontent.com/tmforum-apis/TMF639_ResourceInventory/master/TMF639-ResourceInventory-v4.0.0.swagger.json
+openapi-generator-cli generate --generator-name python-flask --output tmf639/server --additional-properties packageName=oda_sdk_tmf639 -i https://raw.githubusercontent.com/tmforum-apis/TMF639_ResourceInventory/master/TMF639-ResourceInventory-v4.0.0.swagger.json
 ```
 
 ## Replacement
